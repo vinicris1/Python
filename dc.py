@@ -8,7 +8,7 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix='/', intents=intents)
 
-discord_token = ''
+discord_token = 'MTE1MzgyOTY4Nzg5ODkzNTM4Ng.GuzyIY.U2aja90ssTTtlL0pbDDcIGZ_QU7TW9oB0I6QzQ'
 
 a = 0
 lov = ['Te amo amor :heart:', 'Você é a mais gostosa de todo o mundo :heart_on_fire:', "Te macetaria firme neste momento :wood: :hammer:"]
@@ -29,7 +29,7 @@ async def vibs(ctx):
         rand_lov = random.choice(lov)
         await ctx.send("{}".format(rand_lov))
 
-file_path = ['images\linda.png','images\linda2.jpg','images\linda3.png','images\linda.jpg','images\linda5.jpg', 'images\linda6.png','images\linda7.png','images\linda8.jpg']
+file_path = ['images\linda.png','images\linda2.jpg','images\linda3.png','images\linda4.jpg','images\linda5.jpg', 'images\linda6.png','images\linda7.png','images\linda8.jpg']
 
 @bot.command(pass_context = True)
 async def amor(ctx):
