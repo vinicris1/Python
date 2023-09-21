@@ -8,7 +8,7 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix='/', intents=intents)
 
-discord_token = ''
+discord_token = 'a'
 
 a = 0
 lov = ['Te amo amor :heart:', 'Você é a mais gostosa de todo o mundo :heart_on_fire:', "Te macetaria firme neste momento :wood: :hammer:"]
